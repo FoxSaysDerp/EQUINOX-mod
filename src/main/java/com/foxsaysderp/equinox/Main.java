@@ -17,10 +17,10 @@ public class Main
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
-        amethyst = new ModItem("equinoxium");
+        equinoxium = new ModItem("equinoxium");
         GameRegistry.registerItem(equinoxium, "equinoxium");
         
-        amethystOre = new ModBlock(Material.rock, "equinoxiumOre", equinoxium);
+        equinoxiumOre = new ModBlock(Material.rock, "equinoxiumOre", equinoxium);
         GameRegistry.registerBlock(equinoxium, "equinoxiumOre");
         
         GameRegistry.registerWorldGenerator(new ModWorldGenerator(equinoxiumOre, 6), 0);
