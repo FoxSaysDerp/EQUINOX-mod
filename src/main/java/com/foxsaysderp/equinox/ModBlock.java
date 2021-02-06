@@ -5,6 +5,8 @@ import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 
+@Mod(modid = Equinox.MODID, version = Equinox.VERSION)
+
 public class ModBlock extends Block
 {
     private Item toDrop;
