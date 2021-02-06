@@ -1,0 +1,16 @@
+[
+{
+  "modid": "equinox",
+  "name": "EQUINOX Mod",
+  "desrciption": "EQUINOX mod adding new resource.",
+  "version": "${version}",
+  "mcversion": "${mcversion}:,
+  "url": "http://foxsaysderp.github.io",
+  "updateUrl": "",
+  "authorList": ["Mateusz Kubisiak"],
+  "credits": "",
+  "logofile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
